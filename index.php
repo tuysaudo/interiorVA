@@ -234,7 +234,7 @@
                "architecture":"Elicyon",
                "developer":"",
                "image":"project-picasso-landscape-9.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/project-picasso-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/project-picasso-banner.jpg",
                "meta_title":"One Hyde Park",
                "project_type":"335",
                "client_name":"",
@@ -269,7 +269,7 @@
                "disp_order":"130",
                "visible":"1",
                "seo_title":"",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/the-boltons-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/the-boltons-banner.jpg",
                "meta_title":"The Boltons",
                "architecture":"Graham Bell",
                "developer":"Luxlo",
@@ -303,7 +303,7 @@
                "visible":"1",
                "image":"cheyne-fullscreen-1.jpg",
                "meta_title":"",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/cheyne-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/cheyne-banner.jpg",
                "credits":[  
                   {  
                      "title":"Architect",
@@ -333,7 +333,7 @@
                "visible":"1",
                "meta_title":"",
                "image":"monaco-fullscreen-home.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/monaco-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/monaco-banner.jpg",
                "credits":[  
                   {  
                      "title":"Interior Design",
@@ -379,7 +379,7 @@
                "meta_title":"",
                "shadow":"",
                "image":"ashberg-house-3.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/ashberg-house-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/ashberg-house-banner.jpg",
                "credits":[  
                   {  
                      "title":"PROJECT TYPE",
@@ -409,7 +409,7 @@
                "visible":"1",
                "meta_title":"",
                "image":"77-mayfair-fullscreen-1.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/77-mayfair-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/77-mayfair-banner.jpg",
                "credits":[  
                   {  
                      "title":"Project type",
@@ -470,7 +470,7 @@
                   }
                ],
                "image":"south-audley-fullscreen-001.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/south-audley-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/south-audley-banner.jpg",
                "shadow":"",
                "clear-classes":"clear-1 clear-2 clear-5",
                "credits_raw":"[{\"title\":\"PROJECT TYPE\",\"value\":\"7 Apartments including a Penthouse\"},{\"title\":\"PROPERTY DEVELOPER\",\"value\":\"Luxlo\"},{\"title\":\"ARCHITECT\",\"value\":\"Squire & Partners\"},{\"title\":\"INTERIOR DESIGN\",\"value\":\"Martin Kemp Design\"},{\"title\":\"MAIN CONTRACTOR\",\"value\":\"McLaren Group\"}]",
@@ -486,7 +486,7 @@
                "disp_order":"523",
                "visible":"1",
                "image":"chelseath-fullscreen-6.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/chelseath-banner2.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/chelseath-banner2.jpg",
                "shadow":"",
                "meta_title":"",
                "credits":[  
@@ -528,7 +528,7 @@
                   }
                ],
                "image":"matrix-fullscreen-1.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/matrix-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/matrix-banner.jpg",
                "shadow":"",
                "last":true,
                "clear-classes":"clear-1",
@@ -565,7 +565,7 @@
                "meta_title":"",
                "architecture":"",
                "developer":"",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/modern-kitchen-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/modern-kitchen-banner.jpg",
                "image":"modern-kitchen-fullscreen-home.jpg",
                "credits":[  
                   {  
@@ -589,7 +589,7 @@
                "visible":"1",
                "meta_title":"",
                "image":"kitchen-island-fullscreen-1.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/kitchen-island-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/kitchen-island-banner.jpg",
                "credits":[  
                   {  
                      "title":"Design",
@@ -618,7 +618,7 @@
                   }
                ],
                "image":"mayfair-kitchen-landscape-063.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/mayfair-kitchen-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/mayfair-kitchen-banner.jpg",
                "shadow":"",
                "clear-classes":"clear-1 clear-2 clear-3 clear-6",
                "credits_raw":"[{\"title\":\"Design\",\"value\":\"INTERIOR-iD \\\/ MWAI\"}]",
@@ -635,7 +635,7 @@
                "visible":"1",
                "meta_title":"",
                "image":"elgin-contemporary-kitchen-fullscreen-home.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/contemporary-kitchen-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/contemporary-kitchen-banner.jpg",
                "credits":[  
                   {  
                      "title":"Design",
@@ -663,7 +663,7 @@
                   }
                ],
                "image":"chelsea-kitchen-landscape-115.jpg",
-               "banner":"http:\/\/localhost\/html\/interior\/category\/assets\/images\/landscape\/700\/chelsea-kitchen-banner.jpg",
+               "banner":"http:\/\/localhost\/html\/interior\/assets\/images\/landscape\/700\/chelsea-kitchen-banner.jpg",
                "shadow":"",
                "meta_title":"Chelsea concept Kitchen by INTERIOR-iD",
                "clear-classes":"clear-1",
