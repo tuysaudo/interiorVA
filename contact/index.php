@@ -72,13 +72,13 @@
              <div class="menu-wrapper">
                 <nav class="menu-content">
                    <ul class="main-menu">
-                      <li class="main-menu-home first active ">
+                      <li class="active">
                          <a href="/interior/" >Home</a>
                       </li>
-                      <li class="main-menu-about ">
-                         <a href="/interior/about/" >About</a>
+                      <li>
+                         <a href="/interior/about/" target="_blank">About</a>
                       </li>
-                      <li class="main-menu-contact last ">
+                      <li>
                          <a href="/interior/contact/" >Contact</a>
                       </li>
                    </ul>
@@ -164,7 +164,249 @@
 	   
 	   </svg>
 	</script>		<script type="text/json" id="meta">{"offices":[{"itemID":"60","parentID":"0","type":"office","name":"office-london","title":"Studio London","content":"","disp_order":"60","visible":"1","fax":{"default":"","formatted":""},"address":"Studio 6<br \/>\n27a Pembridge Villas<br \/>\nLondon W11 3EP","phone":{"default":"+44 (0)20 7952 2140","formatted":"00442079522140"},"email":"info@interior-id.com","map":"https:\/\/www.google.co.uk\/maps\/place\/INTERIOR-iD\/@51.5132226,-0.197253,17z\/data=!4m5!3m4!1s0x48760ffd08f79ff5:0xae72bb25b72e8a7b!8m2!3d51.513172!4d-0.1970672","streetview":"https:\/\/www.google.co.uk\/maps\/@51.513198,-0.1972704,3a,75y,115.31h,78.65t\/data=!3m6!1e1!3m4!1sAHkU4T5blA80aU18eVp_uw!2e0!7i13312!8i6656!6m1!1e1","location":"","location_zoom":"13","location_lat":"51.513128499953766","location_long":"-0.19707802883601744","streetview_lat":"51.51319797807432","streetview_long":"-0.19727037377697343","streetview_zoom":"1","streetview_pitch":"8.54596862629871","streetview_heading":"121.84195135437814","streetview_pano":"AHkU4T5blA80aU18eVp_uw","first":true,"clear-classes":""},{"itemID":"79","parentID":"0","type":"office","name":"workshop-austria","title":"Workshop Austria","content":"","disp_order":"79","visible":"1","location_zoom":"7","address":"A-8333 Riegersburg 172<br \/>\nAustria","phone":{"default":"+43 (0) 3153 83 01","formatted":"004331538301"},"fax":{"default":"+43 (0) 3153 83 01-7","formatted":"0043315383017"},"email":"","map":"https:\/\/www.google.co.uk\/maps\/place\/Radaschitz+GmbH+%26+Co+KG\/@46.9986674,15.9266418,17z\/data=!3m1!4b1!4m5!3m4!1s0x476efe5e1d3e7b67:0x58170b3a325ea46!8m2!3d46.9986638!4d15.9288305","streetview":"","location":"","location_lat":"46.9986638","location_long":"15.928830500000004","streetview_lat":"46.9986638","streetview_long":"15.928830500000004","streetview_zoom":"","streetview_pitch":"","streetview_heading":"","streetview_pano":"","last":true,"clear-classes":"clear-1"}],"title":null}</script>
+<style>
+    .fb-livechat, .fb-widget, .hl-livechat, .hl-widget{
+        display: none
+    }
+    .ctrlq.fb-button, .ctrlq.fb-close{
+        position: fixed;
+         left: 15px;
+         cursor: pointer
+    }
+    .ctrlq.fb-close{
+        left: 340px;
+    }
+    .ctrlq.fb-button{z-index: 999; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff; width: 60px; height: 60px; text-align: center; bottom: 15px; border: 0; outline: 0; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16); -webkit-transition: box-shadow .2s ease; background-size: 80%; transition: all .2s ease-in-out}
+    .ctrlq.fb-button:focus, .ctrlq.fb-button:hover{
+        transform: scale(1.1);
+         box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24)
+    }
+    .fb-widget{
+        background: #fff;
+         z-index: 1000;
+         position: fixed;
+         width: 360px;
+         height: 435px;
+         overflow: hidden;
+         opacity: 0;
+         bottom: 0;
+         left: 15px;
+         border-radius: 6px;
+         -o-border-radius: 6px;
+         -webkit-border-radius: 6px;
+         box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -o-box-shadow: 0 5px 40px rgba(0, 0, 0, .16)
+    }
+    .fb-credit{
+        text-align: center;
+         margin-top: 8px
+    }
+    .fb-credit a{
+        transition: none;
+         color: #bec2c9;
+         font-family: Helvetica, Arial, sans-serif;
+         font-size: 12px;
+         text-decoration: none;
+         border: 0;
+         font-weight: 400
+    }
+    .ctrlq.fb-overlay{
+        z-index: 0;
+         position: fixed;
+         height: 100vh;
+         width: 100vw;
+         -webkit-transition: opacity .4s, visibility .4s;
+         transition: opacity .4s, visibility .4s;
+         top: 0;
+         left: 0;
+         background: rgba(0, 0, 0, .05);
+         display: none
+    }
+    .ctrlq.fb-close{
+        z-index: 4;
+         padding: 0 6px;
+         background: #365899;
+         font-weight: 700;
+         font-size: 11px;
+         color: #fff;
+         margin: 8px;
+         border-radius: 3px
+    }
+    .ctrlq.fb-close::after{
+        content: "X";
+         font-family: sans-serif
+    }
+    .bubble{
+        font-size: 10px;
+         line-height: 20px;
+         width: 20px;
+         height: 20px;
+         background: #c00;
+         color: #fff;
+         position: absolute;
+         z-index: 999999999;
+         text-align: center;
+         vertical-align: middle;
+         top: -2px;
+         left: -5px;
+         border-radius: 50%;
+    }
+    .bubble-msg{
+        width: 120px;
+         left: -140px;
+         top: 5px;
+         position: relative;
+         background: rgba(59, 89, 152, .8);
+         color: #fff;
+         padding: 5px 8px;
+         border-radius: 8px;
+         text-align: center;
+         font-size: 13px;
+    }
 
+    /* Hotline */
+    .hlctrlq.hl-close{
+        position: fixed;
+         right: 25px;
+         cursor: pointer
+    }
+    .hl-widget{
+        padding: 15px;
+        background: #fff;
+         z-index: 1000;
+         position: fixed;
+         width: 200px;
+         height: 200px;
+         overflow: hidden;
+         opacity: 0;
+         bottom: 0;
+         right: 15px;
+         border-radius: 6px;
+         -o-border-radius: 6px;
+         -webkit-border-radius: 6px;
+         box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+         -o-box-shadow: 0 5px 40px rgba(0, 0, 0, .16)
+    }
+    .hlctrlq.hl-overlay{
+        z-index: 0;
+         position: fixed;
+         height: 100vh;
+         width: 100vw;
+         -webkit-transition: opacity .4s, visibility .4s;
+         transition: opacity .4s, visibility .4s;
+         top: 0;
+         right: 0;
+         background: rgba(0, 0, 0, .05);
+         display: none
+    }
+    .hlctrlq.hl-close{
+        z-index: 4;
+         padding: 0 6px;
+         background: #365899;
+         font-weight: 700;
+         font-size: 11px;
+         color: #fff;
+         margin: 8px;
+         border-radius: 3px
+    }
+    .hlctrlq.hl-close::after{
+        content: "X";
+         font-family: sans-serif
+    }
+    </style>
+        
+        <script>
+        jQuery(document).ready(function($) {
+            function detectmob() {
+                if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            var t = {
+                delay: 125,
+                overlay: $(".fb-overlay"),
+                widget: $(".fb-widget"),
+                button: $(".fb-button")
+            };
+            setTimeout(function() {
+                $("div.fb-livechat").fadeIn()
+            }, 8 * t.delay);
+            if (!detectmob()) {
+                $(".ctrlq").on("click", function(e) {
+                    e.preventDefault(), t.overlay.is(":visible") ? (t.overlay.fadeOut(t.delay), t.widget.stop().animate({
+                        bottom: 0,
+                        opacity: 0
+                    }, 2 * t.delay, function() {
+                        $(this).hide("slow"), t.button.show()
+                    })) : t.button.fadeOut("medium", function() {
+                        t.widget.stop().show().animate({
+                            bottom: "20px",
+                            opacity: 1
+                        }, 2 * t.delay), t.overlay.fadeIn(t.delay)
+                    })
+                })
+            }
+
+            //hotline
+
+            var hl = {
+                delay: 125,
+                overlay: $(".hl-overlay"),
+                widget: $(".hl-widget"),
+                button: $(".iconHotline")
+            };
+            setTimeout(function() {
+                $("div.hl-livechat").fadeIn()
+            }, 8 * hl.delay);
+            if (!detectmob()) {
+                $(".hlctrlq").on("click", function(e) {
+                    e.preventDefault(), hl.overlay.is(":visible") ? (hl.overlay.fadeOut(hl.delay), hl.widget.stop().animate({
+                        bottom: 0,
+                        opacity: 0
+                    }, 2 * hl.delay, function() {
+                        $(this).hide("slow"), hl.button.show()
+                    })) : hl.button.fadeOut("medium", function() {
+                        hl.widget.stop().show().animate({
+                            bottom: "20px",
+                            opacity: 1
+                        }, 2 * hl.delay), hl.overlay.fadeIn(hl.delay)
+                    })
+                })
+            }
+        });
+        </script>
+        
+        <div class="fb-livechat"> 
+            <div class="ctrlq fb-overlay"></div>
+            <div class="fb-widget"> 
+            <div class="ctrlq fb-close"></div>
+            <div class="fb-page" data-href="https://www.facebook.com/vnasiadancetv" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> </div><div class="fb-credit"> <a href="https://chanhtuoi.com" target="_blank">Powered by Chanhtuoi</a> 
+            </div>
+            <div id="fb-root"></div>
+            </div>
+            <a href="https://m.me/vnasiadancetv" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button"> 
+            </a>
+        </div>
+        <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
+
+
+        <div class="hl-livechat"> 
+            <div class="hlctrlq hl-overlay"></div>
+            <div class="hl-widget"> 
+                <div class="hlctrlq hl-close"></div>
+                <div class="hl-page">
+                    <p><strong>Hotline:</strong><span>0989.777.555</span></p>
+                    <p><strong>Fax:</strong><span>0989.777.555</span></p>
+                </div>
+            </div>
+            <span class="hlctrlq iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
+        </div>
   
  </body>
 </html>

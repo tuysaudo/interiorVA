@@ -69,13 +69,13 @@
              <div class="menu-wrapper">
                 <nav class="menu-content">
                    <ul class="main-menu">
-                      <li class="main-menu-home first active ">
+                      <li class="active">
                          <a href="/interior/" >Home</a>
                       </li>
-                      <li class="main-menu-about ">
-                         <a href="/interior/about/" >About</a>
+                      <li>
+                         <a href="/interior/about/" target="_blank">About</a>
                       </li>
-                      <li class="main-menu-contact last ">
+                      <li>
                          <a href="/interior/contact/" >Contact</a>
                       </li>
                    </ul>
@@ -98,8 +98,7 @@
 				<div class="portfolio-wrapper">
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-first ">
 					   <div class="portfolio-option portfolio-option-first">
-						  <h1 class="title-small"><a href="/interior/category/">Private <br />
-							 Homes</a>
+						  <h1 class="title-small"><a href="/interior/category/">U-Tree</a>
 						  </h1>
 						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
 						  <p class="mobile-only">
@@ -115,8 +114,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-second ">
 					   <div class="portfolio-option portfolio-option-second">
-						  <h1 class="title-small"><a href="/interior/category/">Luxury<br />
-							 Developments</a>
+						  <h1 class="title-small"><a href="/interior/category/">U-Design</a>
 						  </h1>
 						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments by collaborating with trusted partner firms.</p>
 						  <p class="mobile-only">
@@ -132,8 +130,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-third ">
 					   <div class="portfolio-option portfolio-option-third">
-						  <h1 class="title-small"><a href="/interior/category/">Private <br />
-							 Homes</a>
+						  <h1 class="title-small"><a href="/interior/category/">U-Furniture </a>
 						  </h1>
 						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
 						  <p class="mobile-only">
@@ -142,32 +139,28 @@
 						  <div class="portfolio-icon-wrapper"><span class="portfolio-icon"></span></div>
 					   </div>
 					   <div class="portfolio-background-container portfolio-background-third">
-						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/picasso-portfolio.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/picasso-portfolio.jpg" />
-						  <div class="portfolio-overlay"></div>
-					   </div>
-					</div>
-					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
-					   <div class="portfolio-option portfolio-option-four portfolio-option-nolink">
-						  <h1 class="title-small">Bespoke Kitchens<br /></h1>
-						  <p></p>
-						  <p class="mobile-only">
-							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
-						  </p>
-						  <div class="portfolio-icon-wrapper is-link">
-							 <a href="http://localhost/interior/" target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
-						  </div>
-					   </div>
-					   <div class="portfolio-icon-wrapper portfolio-link">
-						  <a href="http://localhost/interior/"  target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
-					   </div>
-					   <div class="portfolio-background-container portfolio-background-four">
-						  <div class="portfolio-background fullscreen-weak preload" data-centre="75,25" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/modern-kitchen-fullscreen-1.jpg')"></div>
+						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/modern-kitchen-fullscreen-1.jpg')"></div>
 						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/modern-kitchen-fullscreen-1.jpg" />
 						  <div class="portfolio-overlay"></div>
 					   </div>
 					</div>
 					
+					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
+					   <div class="portfolio-option portfolio-option-four">
+						  <h1 class="title-small"><a href="/interior/category/">U-Tiles </a>
+						  </h1>
+						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
+						  <p class="mobile-only">
+							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
+						  </p>
+						  <div class="portfolio-icon-wrapper"><span class="portfolio-icon"></span></div>
+					   </div>
+					   <div class="portfolio-background-container portfolio-background-four">
+						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/services-development2.jpg')"></div>
+						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/services-development2.jpg" />
+						  <div class="portfolio-overlay"></div>
+					   </div>
+					</div>
 					<div class="portfolio-option-list">
 
 					</div>

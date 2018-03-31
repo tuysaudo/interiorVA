@@ -16406,7 +16406,7 @@ function ContactController() {
     this.className = "ContactController";
     this.debug = false;
 
-    this.glob = "/interior/contact**"
+    this.glob = "/contact**"
 };
 ContactController.inheritsFrom(StandardController);
 ContactController.prototype.on = function() {
@@ -16627,44 +16627,14 @@ function ImageController(settings) {
     this.versions = {
         "fullscreen": [{
             w: 800
-        }, {
-            w: 1920
-        }, {
-            w: 3840
-        }, {
-            h: 530,
-            p: "530p"
-        }, {
-            h: 1100,
-            p: "1100p"
-        }, {
-            h: 1900,
-            p: "1900p"
-        }],
+        },],
         "portrait": [{
             h: 520,
             p: "520p"
-        }, {
-            h: 1000,
-            p: "1000p"
-        }, {
-            h: 1800,
-            p: "1800p"
-        }],
+        }, ],
         "landscape": [{
             w: 700
-        }, {
-            w: 1600
-        }, {
-            w: 3200
-        }],
-        "two-up": [{
-            w: 350
-        }, {
-            w: 800
-        }, {
-            w: 1600
-        }],
+        }, ],
         "team": true
     };
 
