@@ -339,8 +339,8 @@
         background: #fff;
          z-index: 1000;
          position: fixed;
-         width: 200px;
-         height: 200px;
+         width: 250px;
+         height: 300px;
          overflow: hidden;
          opacity: 0;
          bottom: 0;
@@ -464,8 +464,10 @@
             <div class="hl-widget"> 
                 <div class="hlctrlq hl-close"></div>
                 <div class="hl-page">
-                    <p><strong>Hotline:</strong><span>0989.777.555</span></p>
-                    <p><strong>Fax:</strong><span>0989.777.555</span></p>
+                    <p><strong><i class="zmdi zmdi-phone"></i> Hotline:</strong><span>0989.777.555</span></p>
+                    <p><strong><i class="zmdi zmdi-phone"></i>Fax:</strong><span>0989.777.555</span></p>
+                    <p><strong><i class="zmdi zmdi-email"></i> Email:</strong><span>Example@gmail.com</span></p>
+                    <p><strong><i class="zmdi zmdi-pin"></i> Địa chỉ:</strong><span>Studio 6 27a Pembridge Villas London W11 3EP</span></p>
                 </div>
             </div>
             <span class="hlctrlq iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>

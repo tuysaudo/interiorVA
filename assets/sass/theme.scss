@@ -1584,11 +1584,7 @@
      -webkit-transition: opacity 1s ease-in-out;
      -moz-transition: opacity 1s ease-in-out;
      -o-transition: opacity 1s ease-in-out;
-	 &.selected-fixed{
-		li{
-			max-height:50px !important;
-		}
-	}
+	 
 }
 
  .main-menu li a{
@@ -1596,6 +1592,7 @@
      margin-bottom:3px;
      color:#FFFFFF;
      text-decoration:none;
+	 max-height:50px !important;
 }
  .main-menu li a:hover, .main-menu li.active a{
      color:#FFFFFF;
@@ -4935,17 +4932,22 @@
     }
 }
 .hl-page{
-    padding:20px 0 0;
+    padding:10px 0 0;
     p{
-        margin:0 0 25px;
+        margin:0 0 15px;
         strong{
+			font-size:14px;
             display: block;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
             text-transform: uppercase;
+			i{
+				margin-right:10px;
+			}
         }
         span{
             color:red;
-            font-size: 30px;
+            font-size: 18px;
+			line-height:26px;
         }
     }
 }
