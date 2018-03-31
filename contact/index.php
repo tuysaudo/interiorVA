@@ -120,7 +120,7 @@
 			<div class="page contact contact-index full-height">
 				 <div class="left-side contact-side">
 					<div class="contact-locations content-offset">
-					   <div class="contact-location  itemscope itemtype="http://schema.org/Organization" data-streetview="https://www.google.co.uk/maps/@51.513198,-0.1972704,3a,75y,115.31h,78.65t/data=!3m6!1e1!3m4!1sAHkU4T5blA80aU18eVp_uw!2e0!7i13312!8i6656!6m1!1e1">
+					   <div class="contact-location">
 						   <h2 class="contact-location-title">
 							  <a href="">Studio London</a>
 						   </h2>
@@ -138,7 +138,7 @@
 						   <span></span>Streetview
 						   </a>
 						</div>
-						<div class="contact-location  itemscope itemtype="http://schema.org/Organization" data-streetview="">
+						<div class="contact-location">
 							<h2 class="contact-location-title">
 							   <a href="">Workshop Austria</a>
 							</h2>
