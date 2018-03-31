@@ -1584,8 +1584,13 @@
      -webkit-transition: opacity 1s ease-in-out;
      -moz-transition: opacity 1s ease-in-out;
      -o-transition: opacity 1s ease-in-out;
-	 max-height: 50px;
+	 &.selected-fixed{
+		li{
+			max-height:50px !important;
+		}
+	}
 }
+
  .main-menu li a{
      display:block;
      margin-bottom:3px;
