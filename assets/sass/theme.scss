@@ -4,7 +4,7 @@
 /* Berling & Trade Gothic */
 /* * Berling */
  @font-face{
-     font-family:"Berling LT W01 Roman";
+     font-family:"Roboto Condensed";
      src:url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Romand41d.eot?#iefix");
      src:url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Romand41d.eot?#iefix") format("eot"), url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Roman.woff2") format("woff2"), url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Roman.woff") format("woff"), url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Roman.ttf") format("truetype"), url("../fonts/Berling-LT-W01-Roman/Berling-LT-W01-Roman.svg#Berling-LT-W01-Roman") format("svg");
 }
@@ -18,6 +18,46 @@
      font-family:"TradeGothic W01 BoldCn";
      src:url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCnd41d.eot?#iefix");
      src:url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCnd41d.eot?#iefix") format("eot"), url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCn.woff2") format("woff2"), url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCn.woff") format("woff"), url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCn.ttf") format("truetype"), url("../fonts/TradeGothic-W01-BoldCn/TradeGothic-W01-BoldCn.svg#TradeGothic-W01-BoldCn") format("svg");
+}
+/* Roboto */
+@font-face{
+     font-family:"Roboto Condensed";
+	 font-weight: 400;
+     src:url("../fonts/Roboto/RobotoCondensed-Regular.eot?#iefix");
+     src:url("../fonts/Roboto/RobotoCondensed-Regular.eot?#iefix") format("eot"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.woff2") format("woff2"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.woff") format("woff"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.svg") format("svg");
+}
+@font-face{
+     font-family:"Roboto Condensed";
+	 font-style: italic;
+     src:url("../fonts/Roboto/RobotoCondensed-Italic.eot?#iefix");
+     src:url("../fonts/Roboto/RobotoCondensed-Italic.eot?#iefix") format("eot"), 
+	 url("../fonts/Roboto/RobotoCondensed-Italic.woff2") format("woff2"), 
+	 url("../fonts/Roboto/RobotoCondensed-Italic.woff") format("woff"), 
+	 url("../fonts/Roboto/RobotoCondensed-Italic.ttf") format("truetype"), 
+	 url("../fonts/Roboto/RobotoCondensed-Italic.svg") format("svg");
+}
+@font-face{
+     font-family:"Roboto Condensed";
+	 font-weight: 700;
+     src:url("../fonts/Roboto/RobotoCondensed-Bold.eot?#iefix");
+     src:url("../fonts/Roboto/RobotoCondensed-Bold.eot?#iefix") format("eot"), 
+	 url("../fonts/Roboto/RobotoCondensed-Bold.woff2") format("woff2"), 
+	 url("../fonts/Roboto/RobotoCondensed-Bold.woff") format("woff"), 
+	 url("../fonts/Roboto/RobotoCondensed-Bold.ttf") format("truetype"), 
+	 url("../fonts/Roboto/RobotoCondensed-Bold.svg") format("svg");
+}
+@font-face{
+     font-family:"TradeGothic W01 BoldCn";
+     src:url("../fonts/Roboto/RobotoCondensed-Regular.eot?#iefix");
+     src:url("../fonts/Roboto/RobotoCondensed-Regular.eot?#iefix") format("eot"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.woff2") format("woff2"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.woff") format("woff"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype"), 
+	 url("../fonts/Roboto/RobotoCondensed-Regular.svg") format("svg");
 }
 /* -------------------- Reset CSS -------------------- */
 /*---Reset Stylesheet---*/
@@ -936,26 +976,26 @@
 /* -------------------- General CSS -------------------- */
 /* Titles */
  h1, h2, .title-large, .title-medium, .title-small{
-     font:120px/140px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+     font:120px/140px "Roboto Condensed", Arial, Helvetica, sans-serif;
      color:#FFFFFF;
      margin-bottom:92px;
 }
  h1, .title-medium{
-     font:90px/92px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+     font:90px/92px "Roboto Condensed", Arial, Helvetica, sans-serif;
      margin-bottom:40px;
 }
  h1, .title-medium-small{
-     font:60px/62px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+     font:60px/62px "Roboto Condensed", Arial, Helvetica, sans-serif;
      margin-bottom:30px;
 }
  h2, .title-small{
-     font:40px/45px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+     font:40px/45px "Roboto Condensed", Arial, Helvetica, sans-serif;
      margin-bottom:10px;
 }
 /*--- Large title ---*/
  @media screen and (max-width:1400px), screen and (max-height:670px){
      .title-large{
-         font:90px/92px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:90px/92px "Roboto Condensed", Arial, Helvetica, sans-serif;
          margin-bottom:72px;
     }
 }
@@ -966,7 +1006,7 @@
 }
  @media screen and (max-width:740px), screen and (max-height:480px){
      .title-large{
-         font:50px/52px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:50px/52px "Roboto Condensed", Arial, Helvetica, sans-serif;
          margin-bottom:32px;
     }
 }
@@ -974,30 +1014,30 @@
 /*, screen and (max-height:380px)*/
 {
      .title-large{
-         font:40px/42px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:40px/42px "Roboto Condensed", Arial, Helvetica, sans-serif;
          margin-bottom:22px;
     }
 }
 /*--- Medium title ---*/
  @media screen and (max-width:740px){
      h1, .title-medium, .title-medium-small{
-         font:50px/52px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:50px/52px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
  @media screen and (max-width:600px){
      h1, .title-medium, .title-medium-small{
-         font:40px/42px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:40px/42px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
 /*--- Small title ---*/
  @media screen and (max-width:740px){
      h2, .title-small{
-         font:33px/37px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:33px/37px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
  @media screen and (max-width:400px){
      h2, .title-small{
-         font:30px/31px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:30px/31px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
 /*--- Copy title ---*/
@@ -1538,7 +1578,7 @@
      float:left;
      clear:left;
      margin:0 0 20px 0;
-     font:40px/45px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+     font:40px/45px "Roboto Condensed", Arial, Helvetica, sans-serif;
      list-style:none;
      transition: opacity 1s ease-in-out;
      -webkit-transition: opacity 1s ease-in-out;
@@ -1598,7 +1638,7 @@
 }
  @media screen and (max-width:900px), screen and (max-height:520px){
      .main-menu li{
-         font:30px/35px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:30px/35px "Roboto Condensed", Arial, Helvetica, sans-serif;
          margin-bottom:12px;
     }
      .dropdown-menu{
@@ -1626,7 +1666,7 @@
 }
  @media screen and (max-width:400px), screen and (max-height:480px){
      .main-menu li{
-         font:25px/25px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:25px/25px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
      .dropdown-menu{
          left:94px;
@@ -3360,17 +3400,17 @@
 }
  @media screen and (max-width:1200px){
      .portfolio h1, .portfolio h2{
-         font:30px/31px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:30px/31px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
  @media screen and (orientation: landscape) and (max-width:750px) {
      .portfolio h1, .portfolio h2{
-         font:25px/26px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:25px/26px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
  @media screen and (orientation: landscape) and (max-width:600px){
      .portfolio h1, .portfolio h2{
-         font:21px/22px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:21px/22px "Roboto Condensed", Arial, Helvetica, sans-serif;
     }
 }
  @media screen and (orientation: portrait) and (max-width:1000px), screen and (orientation: landscape) and (max-width:550px){
@@ -4026,7 +4066,7 @@
          text-shadow: 20px 0px 30px rgba(1, 1,1, 0.3),-20px 0px 30px rgba(1, 1,1, 0.3),20px 20px 30px rgba(1, 1,1, 0.3),20px -20px 30px rgba(1, 1,1, 0.3),-20px -20px 30px rgba(1, 1,1, 0.3),-20px 20px 30px rgba(1, 1,1, 0.3);
     }
      .portfolio-item-cover-info h1{
-         font:40px/45px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:40px/45px "Roboto Condensed", Arial, Helvetica, sans-serif;
          position:relative;
          z-index:1;
     }
@@ -4078,7 +4118,7 @@
          transform:translateY(-50%);
         */
          color:#FFFFFF;
-         font:22px/30px "Berling LT W01 Roman", Arial, Helvetica, sans-serif;
+         font:22px/30px "Roboto Condensed", Arial, Helvetica, sans-serif;
          padding:0 3em;
          -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
