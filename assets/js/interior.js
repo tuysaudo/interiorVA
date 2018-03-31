@@ -15534,7 +15534,7 @@ MenuController.prototype.on = function() {
     }
 
     this.selected = nav.getState().nextParts[0];
-    if (!this.selected) this.selected = "about";
+    if (!this.selected) this.selected = "home";
     this.subSelected = nav.getState().nextParts[1];
 
     return true;
@@ -15585,13 +15585,10 @@ MenuController.prototype.show = function() {
     }));
     this.selectItem();
 
-    // var state = Aviator.get("nav").getState();
-    // if (state.nextParts[0] == "company") {
-        // this.showSubmenu("company");
-    // };
-    // if (state.nextParts[0] == "services") {
-        // this.showSubmenu("services");
-    // };
+    var state = Aviator.get("nav").getState();
+    if (state.nextParts[0] == "category") {
+        this.showSubmenu("category");
+    };
 
 }
 MenuController.prototype.lastSvgTextOn = function() {
@@ -15658,6 +15655,14 @@ MenuController.prototype.hide = function(options) {
         });
     }
 
+
+    //We need an oncomplete...
+    //menu-content
+
+    if (this.submenuStatus == "on") {
+        this.hideSubmenu("category");
+    }
+
     if (options.showTexts !== false && this.$texts) this.$texts.each(function() {
         var $this = $(this);
         $this.stop().css("visibility", "").removeClass("menu-hidden").animate({
@@ -15670,7 +15675,99 @@ MenuController.prototype.hide = function(options) {
 
 
 }
+MenuController.prototype.toggleSubmenu = function(name) {
+    if (this.submenuStatus == "on") {
+        this.hideSubmenu(this.currentSubmenu);
+        if (this.currentSubmenu !== name) this.showSubmenu(name);
+    } else {
+        this.showSubmenu(name);
+    }
+}
+MenuController.prototype.showSubmenu = function(name) {
 
+    this.submenuStatus = "on";
+    this.currentSubmenu = name;
+    this.$holder.find(".main-menu-" + name + " .dropdown-menu").stop().show().css("opacity", 1).css("z-index", 1);
+
+    this.clearSecondTimeouts();
+    this.linkSecondTimeouts = [];
+
+    this.$topLinks.parent().filter(".main-menu-" + name).addClass("selected-fixed");
+
+    var $links = this.$secondLinksByName[name];
+    $links.each(Igloo.$delegate(this, function($this, i) {
+        $this.data("svgText").reset();
+        this.linkSecondTimeouts.push(setTimeout(Igloo.delegate(this, function() {
+            $this.css("opacity", 1).data("svgText").on();
+        }), 150 * i));
+    }));
+    this.selectSubItem();
+
+    this.$topLinks.each(function(i) {
+        var $p = $(this).parent();
+        $p.addClass("off-fixed");
+        if ($p.hasClass("main-menu-" + name)) $p.removeClass("off-fixed");
+    });
+
+}
+MenuController.prototype.lastSecondSvgTextOn = function() {
+
+}
+MenuController.prototype.hideSubmenu = function(name) {
+
+    this.submenuStatus = "off";
+
+    this.$topLinks.parent().filter(".main-menu-" + name).removeClass("selected-fixed"); //
+
+    this.clearSecondTimeouts();
+
+
+    if (this.offType == "fade") {
+
+        this.$holder.find(".main-menu-" + name + " .dropdown-menu").css("z-index", 0)
+        this.$holder.find(".main-menu-" + name + " .dropdown-menu").animate({
+            opacity: 0
+        }, {
+            duration: 1000,
+            complete: Igloo.$delegate(this, function($this) {
+
+                if (this.submenuStatus == "on") {
+                    if (this.currentSubmenu !== name) {
+                        $this.hide();
+                    }
+                    return;
+                }
+                var $links = this.$secondLinksByName[name];
+                $links.each(function(i) {
+                    $(this).data("svgText").reset();
+                });
+
+
+            })
+        });
+
+    } else {
+        var $links = this.$secondLinksByName[name];
+        $links.each(function(i) {
+            setTimeout(Igloo.delegate(this, function() {
+                $(this).data("off")(1);
+            }), 10 * i);
+        });
+    }
+    this.$topLinks.each(function(i) {
+        var $p = $(this).parent();
+        $p.removeClass("off-fixed");
+    });
+
+}
+MenuController.prototype.selectSubItem = function() {
+
+    this.$secondLinks.each(function() {
+        $(this).parent().addClass("off").removeClass("on").removeClass("selected")
+    });
+    this.$secondLinks.parent().filter(".dropdown-menu-" + this.subSelected).removeClass("off").addClass("selected");
+
+}
 MenuController.prototype.setup = function() {
     var _this = this;
 
@@ -15682,13 +15779,19 @@ MenuController.prototype.setup = function() {
     this.$credits = $(".menu-credits");
 
     this.$topLinks = $(".main-menu > li > a");
+    this.$secondLinks = $(".dropdown-menu li > a");
+    this.$secondLinksByName = {};
 
-    var $links = this.$topLinks.add();
+    var $links = this.$topLinks.add(this.$secondLinks);
     new SvgText($links, {
         animate: false,
         a: 1.5
     }); //This will set them all up
 
+    this.$topLinks.last().data("svgText").addListener("on", Igloo.delegate(this, this.lastSvgTextOn));
+    this.$secondLinks.last().data("svgText").addListener("on", Igloo.delegate(this, this.lastSecondSvgTextOn));
+
+    //nav.addToLinks(this.$holder.find("a"));
     this.$holder.find("a").on("click touchstart", Igloo.$delegate(this, function($this, e) {
         e.preventDefault();
         e.stopPropagation();
@@ -15699,6 +15802,22 @@ MenuController.prototype.setup = function() {
             nav.change(nav.cleanUrl(href))
         }
     }));
+
+    this.$topLinks.each(Igloo.$delegate(this, function($this) {
+        if ($this.next().hasClass("dropdown-menu")) {
+            var $p = $this.parent();
+            var name = $p.attr("class").split(" ")[0].substr(10);
+            $p.addClass("hasDropdown");
+            this.$secondLinksByName[name] = $this.next().find("li > a");
+            $this.off("click touchstart").on("click touchstart", Igloo.delegate(this, function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                this.toggleSubmenu(name);
+            }));
+        }
+    }))
+
+    this.$holder.find("li.main-menu-company > a")
 
     this.status = "off";
 
@@ -15727,6 +15846,8 @@ MenuController.prototype.setup = function() {
         $this.parent().removeClass("off").addClass("on");
     })).on("mouseout", Igloo.$delegate(this, function($this, e) {
         this.selectItem();
+        //$this.parent().removeClass("on");
+        //this.$topLinks.each(function(){$(this).parent().removeClass("off")});
     }));
 
     var m = function($set) {
@@ -15770,6 +15891,9 @@ MenuController.prototype.setup = function() {
         }
     }));
 
+    //jstage.addListener("resize", checkAndShowOrHide);
+
+
 }
 MenuController.prototype.cover = function(onComplete, instant) {
     if (!this.isSetup) {
@@ -15780,6 +15904,8 @@ MenuController.prototype.cover = function(onComplete, instant) {
     this.coverStatus = "on";
 
     this.coverAc.change(1, instant);
+
+    //this.addListenerOnce("coverComplete",onComplete);
     setTimeout(function() {
         onComplete();
     }, instant ? 700 : 700)

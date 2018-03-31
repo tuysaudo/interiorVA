@@ -69,16 +69,35 @@
              <div class="menu-wrapper">
                 <nav class="menu-content">
                    <ul class="main-menu">
-                      <li class="active">
-                         <a href="/interior/" >Home</a>
-                      </li>
-                      <li>
-                         <a href="/interior/about/" target="_blank">About</a>
-                      </li>
-                      <li>
-                         <a href="/interior/contact/" >Contact</a>
-                      </li>
-                   </ul>
+					  <li class="main-menu-home first active ">
+						 <a href="/interior/" >Trang chủ</a>
+					  </li>
+					  <li class="main-menu-about last ">
+						 <a href="/interior/about/index.php" >Giới thiệu</a>
+					  </li>
+					  <li class="main-menu-company ">
+						 <a href="/interior/index.php">Danh mục</a>
+						 <nav class="dropdown-menu">
+							<ul>
+							   <li class="dropdown-menu-studio first " >
+								  <a href="/interior/index.php">U-Tree</a>
+							   </li>
+							   <li class="dropdown-menu-workshop " >
+								  <a href="/interior/">U-Designs</a>
+							   </li>
+							   <li class="dropdown-menu-team " >
+								  <a href="/interior/">U-Furniture</a>
+							   </li>
+							   <li class="dropdown-menu-team " >
+								  <a href="/interior/">U-Tiles</a>
+							   </li>
+							</ul>
+						 </nav>
+					  </li>
+					  <li class="main-menu-contact last ">
+						 <a href="/interior/contact/index.php" >Liên hệ</a>
+					  </li>
+					</ul>
                 </nav>
                 <div class="menu-credits">
                    <div class="credits ">
