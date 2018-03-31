@@ -126,8 +126,8 @@
 					</div>
 					<a class='info-toggle' href="">Info</a>
 					<div class="social-share-icons">
-						<a href="" class="social-share-icon social-share-icon-pinterest"><img src="http://localhost/interior/assets/images/icons/pin-it.img" alt="Pin It" width="42" height="19px"></a>
-						<a href="" class="social-share-icon social-share-icon-twitter"><img src="http://localhost/interior/assets/images/icons/twitter-bird.img" alt="Twitter" width="23" height="19px"></a>
+						<a href="" class="social-share-icon social-share-icon-pinterest"><img src="http://localhost/interior/assets/images/icons/pin-it.svg" alt="Pin It" width="42" height="19px"></a>
+						<a href="" class="social-share-icon social-share-icon-twitter"><img src="http://localhost/interior/assets/images/icons/twitter-bird.svg" alt="Twitter" width="23" height="19px"></a>
 						<!--<a href="" class="social-share-icon social-share-icon-instagram"><img src="/assets/images/icons/instagram.img" alt="Instagram" height='19px'></a>-->
 					</div>
 				 </div>
