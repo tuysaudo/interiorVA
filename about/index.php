@@ -21,7 +21,7 @@
     <meta name="author" content="INTERIOR-iD" />
     <meta property="og:description" content="INTERIOR-iD is a premium-quality joinery company specialising in the development, manufacture and installation of bespoke fitted interiors in a range of materials." />
     <meta property="og:type" content="Article" />
-    <meta property="og:url" content="http://localhost/html/interior/" />
+    <meta property="og:url" content="http://localhost/interior/" />
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="description" content="INTERIOR-iD is a premium-quality joinery company specialising in the development, manufacture and installation of bespoke fitted interiors in a range of materials." />
     <!-- Twitter Card data -->
@@ -59,12 +59,12 @@
       </div>
        <header class="page-header ">
           <div class="logo">
-             <a href="http://localhost/html/interior/">
+             <a href="/interior/">
              INTERIOR-iD                </a>
           </div>
           <div class="menu">
              <div class="menu-button">
-                <a href="http://localhost/html/interior/">
+                <a href="/interior/">
                 <span class="menu-icon"><span></span></span>
                 <span class="menu-label">Menu</span>
                 </a>
@@ -73,13 +73,13 @@
                 <nav class="menu-content">
                    <ul class="main-menu">
                       <li class="main-menu-home first active ">
-                         <a href="http://localhost/html/interior/" >Home</a>
+                         <a href="/interior/" >Home</a>
                       </li>
                       <li class="main-menu-about ">
-                         <a href="http://localhost/html/interior/about/" >About</a>
+                         <a href="/interior/about/" >About</a>
                       </li>
                       <li class="main-menu-contact last ">
-                         <a href="http://localhost/html/interior/contact/" >Contact</a>
+                         <a href="/interior/contact/" >Contact</a>
                       </li>
                    </ul>
                 </nav>
@@ -87,7 +87,7 @@
                    <div class="credits ">
                       <div class="copyright">
                          <p>
-                            &copy; 2016 &ndash; 2018 <span class="legal-credits"><a href="legal/http://localhost/html/interior/">Legal</a> & <a href="http://www.goigloo.com/" target="_blank">Credits</a></span>
+                            &copy; 2016 &ndash; 2018 <span class="legal-credits"><a href="legal/http://localhost/interior/">Legal</a> & <a href="http://www.goigloo.com/" target="_blank">Credits</a></span>
                          </p>
                       </div>
                    </div>
@@ -102,7 +102,7 @@
                         <h1>Careers</h1>
                      </div>
                      <div class="section-header full-height">
-                        <div class="background cover pos-bl preload" style="background-image:url(http://localhost/html/interior/assets/images/fullscreen/800/careers-fullscreen-02964b.jpg);"></div>
+                        <div class="background cover pos-bl preload" style="background-image:url(http://localhost/interior/assets/images/fullscreen/800/careers-fullscreen-02964b.jpg);"></div>
                      </div>
                      <div class="section-footer abs-bottom abs-full">
                         <div class="section-footer-inner clearfix">

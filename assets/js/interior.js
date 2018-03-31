@@ -16406,7 +16406,7 @@ function ContactController() {
     this.className = "ContactController";
     this.debug = false;
 
-    this.glob = "/contact**"
+    this.glob = "/interior/contact**"
 };
 ContactController.inheritsFrom(StandardController);
 ContactController.prototype.on = function() {

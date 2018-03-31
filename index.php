@@ -56,12 +56,12 @@
       
        <header class="page-header ">
           <div class="logo">
-             <a href="http://localhost/interior/">
+             <a href="/interior/">
              INTERIOR-iD                </a>
           </div>
           <div class="menu">
              <div class="menu-button">
-                <a href="http://localhost/interior/">
+                <a href="/interior/">
                 <span class="menu-icon"><span></span></span>
                 <span class="menu-label">Menu</span>
                 </a>
@@ -70,13 +70,13 @@
                 <nav class="menu-content">
                    <ul class="main-menu">
                       <li class="main-menu-home first active ">
-                         <a href="http://localhost/interior/" >Home</a>
+                         <a href="/interior/" >Home</a>
                       </li>
                       <li class="main-menu-about ">
-                         <a href="http://localhost/interior/about/" >About</a>
+                         <a href="/interior/about/" >About</a>
                       </li>
                       <li class="main-menu-contact last ">
-                         <a href="http://localhost/interior/contact/" >Contact</a>
+                         <a href="/interior/contact/" >Contact</a>
                       </li>
                    </ul>
                 </nav>
