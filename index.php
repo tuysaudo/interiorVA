@@ -116,7 +116,7 @@
 					   <div class="portfolio-option portfolio-option-second">
 						  <h1 class="title-small"><a href="/interior/category/">U-Design</a>
 						  </h1>
-						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments by collaborating with trusted partner firms.</p>
+						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments.</p>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
 						  </p>
