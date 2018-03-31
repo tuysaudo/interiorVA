@@ -44,7 +44,7 @@
     <meta name="theme-color" content="#ffffff">
     <script src="../assets/js/interior.js"></script>
     <script src="../assets/js/theme.js"></script>
-	<link href="assets/css/material-design-iconic-font.min.css" rel="stylesheet" >
+	<link href="../assets/css/material-design-iconic-font.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="../assets/css/theme.css" />
     <script type="text/javascript">
        Aviator.detectFontLoad();
@@ -442,17 +442,30 @@
     }
     .ctrlq.fb-button, .ctrlq.fb-close{
         position: fixed;
-         left: 15px;
+         right: 15px;
          cursor: pointer
     }
-    .ctrlq.fb-close{
-        left: 340px;
-    }
-    .ctrlq.fb-button{z-index: 999; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff; width: 60px; height: 60px; text-align: center; bottom: 15px; border: 0; outline: 0; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16); -webkit-transition: box-shadow .2s ease; background-size: 80%; transition: all .2s ease-in-out}
-    .ctrlq.fb-button:focus, .ctrlq.fb-button:hover{
-        transform: scale(1.1);
-         box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24)
-    }
+    .ctrlq.fb-button{
+		position: fixed;
+		bottom:85px;
+		z-index: 100;
+		display: block;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 5px solid rgba(255,255,255, 0.25);
+		background-color: rgba(255,255,255, 0.8);
+		overflow: hidden;
+		line-height: 40px;
+		font-size: 24px;
+		text-align: center;
+		color:#999;
+		transition:all 0.3s ease-in-out;
+	}
+	.ctrlq.fb-button:hover{
+		 background-color: #3B5997;
+        color:#fff;
+	}
     .fb-widget{
         background: #fff;
          z-index: 1000;
@@ -462,7 +475,7 @@
          overflow: hidden;
          opacity: 0;
          bottom: 0;
-         left: 15px;
+         right: 15px;
          border-radius: 6px;
          -o-border-radius: 6px;
          -webkit-border-radius: 6px;
@@ -541,7 +554,7 @@
     /* Hotline */
     .hlctrlq.hl-close{
         position: fixed;
-         right: 25px;
+         right: 15px;
          cursor: pointer
     }
     .hl-widget{
@@ -663,6 +676,7 @@
             <div id="fb-root"></div>
             </div>
             <a href="https://m.me/vnasiadancetv" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button"> 
+				<i class="zmdi zmdi-facebook"></i>
             </a>
         </div>
         <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
