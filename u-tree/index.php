@@ -42,18 +42,22 @@
     <meta name="msapplication-TileImage" content="assets/favicons/mstile-150x150.png">
     <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <script src="assets/js/interior.js"></script>
-    <script src="assets/js/theme.js"></script>
-	<link href="assets/css/material-design-iconic-font.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="assets/css/theme.css" />
+    <script src="../assets/js/interior.js"></script>
+    <script src="../assets/js/theme.js"></script>
+	<link href="../assets/css/material-design-iconic-font.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../assets/css/theme.css" />
     <script type="text/javascript">
        Aviator.detectFontLoad();
     </script>
-
  </head>
  <body class=" ">
     <div class="wrapper">
-      
+      <div class="boxFacebook">
+            <span class="iconAdd iconFace"><i class="zmdi zmdi-facebook"></i></span>
+      </div>
+      <div class="boxHotline">
+            <span class="iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
+      </div>
        <header class="page-header ">
           <div class="logo">
              <a href="/interior/">
@@ -79,16 +83,16 @@
 						 <a href="/interior/index.php">Danh mục</a>
 						 <nav class="dropdown-menu">
 							<ul>
-							   <li class="dropdown-menu-tree first " >
+							   <li class="dropdown-menu-studio first " >
 								  <a href="/interior/index.php">U-Tree</a>
 							   </li>
-							   <li class="dropdown-menu-designs " >
+							   <li class="dropdown-menu-workshop " >
 								  <a href="/interior/">U-Designs</a>
 							   </li>
-							   <li class="dropdown-menu-furniture " >
+							   <li class="dropdown-menu-team " >
 								  <a href="/interior/">U-Furniture</a>
 							   </li>
-							   <li class="dropdown-menu-tiles " >
+							   <li class="dropdown-menu-team " >
 								  <a href="/interior/">U-Tiles</a>
 							   </li>
 							</ul>
@@ -103,7 +107,7 @@
                    <div class="credits ">
                       <div class="copyright">
                          <p>
-                            &copy; 2016 &ndash; 2018 <span class="legal-credits"><a href="legal/http://localhost/interior/">Legal</a> & <a href="http://www.goigloo.com/" target="_blank">Credits</a></span>
+                            &copy; 2016 &ndash; 2018 <span class="legal-credits"><a href="/">Legal</a> & <a href="http://www.goigloo.com/" target="_blank">Credits</a></span>
                          </p>
                       </div>
                    </div>
@@ -113,8 +117,8 @@
           </div>
        </header>
        <div class="body">
-			<div class="page portfolio portfolio-index">
-				<div class="portfolio-wrapper">
+			<div class="page portfolio portfolio-index ">
+				 <div class="portfolio-wrapper">
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-first ">
 					   <div class="portfolio-option portfolio-option-first">
 						  <h1 class="title-small"><a href="/interior/u-tree/">U-Tree</a>
@@ -127,15 +131,16 @@
 					   </div>
 					   <div class="portfolio-background-container portfolio-background-first">
 						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/picasso-portfolio.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/picasso-portfolio.jpg" />
+						  <img class="portfolio-background-mobile v-align" src="../assets/images/touch-devices/picasso-portfolio.jpg" />
 						  <div class="portfolio-overlay"></div>
 					   </div>
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-second ">
 					   <div class="portfolio-option portfolio-option-second">
-						  <h1 class="title-small"><a href="/interior/category/">U-Design</a>
+						  <h1 class="title-small"><a href="/interior/category/">Luxury<br />
+							 Developments</a>
 						  </h1>
-						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments.</p>
+						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments by collaborating with trusted partner firms.</p>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
 						  </p>
@@ -143,13 +148,14 @@
 					   </div>
 					   <div class="portfolio-background-container portfolio-background-second">
 						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,25" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/chelseath-fullscreen-1.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/chelseath-fullscreen-1.jpg" />
+						  <img class="portfolio-background-mobile v-align" src="../assets/images/touch-devices/chelseath-fullscreen-1.jpg" />
 						  <div class="portfolio-overlay"></div>
 					   </div>
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-third ">
 					   <div class="portfolio-option portfolio-option-third">
-						  <h1 class="title-small"><a href="/interior/category/">U-Furniture </a>
+						  <h1 class="title-small"><a href="/interior/category/">Private <br />
+							 Homes</a>
 						  </h1>
 						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
 						  <p class="mobile-only">
@@ -158,34 +164,38 @@
 						  <div class="portfolio-icon-wrapper"><span class="portfolio-icon"></span></div>
 					   </div>
 					   <div class="portfolio-background-container portfolio-background-third">
-						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/modern-kitchen-fullscreen-1.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/modern-kitchen-fullscreen-1.jpg" />
+						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/picasso-portfolio.jpg')"></div>
+						  <img class="portfolio-background-mobile v-align" src="../assets/images/touch-devices/picasso-portfolio.jpg" />
+						  <div class="portfolio-overlay"></div>
+					   </div>
+					</div>
+					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
+					   <div class="portfolio-option portfolio-option-four portfolio-option-nolink">
+						  <h1 class="title-small">Bespoke Kitchens<br /></h1>
+						  <p></p>
+						  <p class="mobile-only">
+							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
+						  </p>
+						  <div class="portfolio-icon-wrapper is-link">
+							 <a href="http://localhost/interior/" target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
+						  </div>
+					   </div>
+					   <div class="portfolio-icon-wrapper portfolio-link">
+						  <a href="http://localhost/interior/"  target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
+					   </div>
+					   <div class="portfolio-background-container portfolio-background-four">
+						  <div class="portfolio-background fullscreen-weak preload" data-centre="75,25" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/modern-kitchen-fullscreen-1.jpg')"></div>
+						  <img class="portfolio-background-mobile v-align" src="../assets/images/touch-devices/modern-kitchen-fullscreen-1.jpg" />
 						  <div class="portfolio-overlay"></div>
 					   </div>
 					</div>
 					
-					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
-					   <div class="portfolio-option portfolio-option-four">
-						  <h1 class="title-small"><a href="/interior/category/">U-Tiles </a>
-						  </h1>
-						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
-						  <p class="mobile-only">
-							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
-						  </p>
-						  <div class="portfolio-icon-wrapper"><span class="portfolio-icon"></span></div>
-					   </div>
-					   <div class="portfolio-background-container portfolio-background-four">
-						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/services-development2.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/services-development2.jpg" />
-						  <div class="portfolio-overlay"></div>
-					   </div>
-					</div>
 					<div class="portfolio-option-list">
 
 					</div>
 				 </div>
-			</div>
-			<script type="text/template" id="project/list-item"><div class="portfolio-option-list-item">
+			  </div>
+			  <script type="text/template" id="project/list-item"><div class="portfolio-option-list-item">
 				 <div class="portfolio-option-list-item-image preload" >
 					{{#banner}}
 					<img src="{{banner}}" alt="{{title}}" data-ratio="3.343">
@@ -196,8 +206,6 @@
 			  </script>
 		</div>
     </div>
-	
-	
     <script type="text/template" id="svg-text"><svg class="svg-text" xmlns="http://www.w3.org/2000/svg" >
        <symbol id="{{id}}">
            <text class="text-symbol" text-anchor="start" x="{{x}}" y="{{y}}" dy="{{dy}}">
@@ -823,10 +831,8 @@
    ],
    "title":null
 }
-</script>
-    <script type="text/json" id="meta">{"title":null}</script>
-
-    <style>
+</script>	
+<style>
     .fb-livechat, .fb-widget, .hl-livechat, .hl-widget{
         display: none
     }
@@ -1085,6 +1091,5 @@
             </div>
             <span class="hlctrlq iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
         </div>
-        
  </body>
 </html>

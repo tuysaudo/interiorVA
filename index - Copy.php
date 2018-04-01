@@ -685,8 +685,9 @@
             }
          ]
       },
+	  //Add by Túy Sâu Đo
 	  {  
-         "itemID":"19",
+         "itemID":"122",
          "parentID":"0",
          "type":"interior_categories",
          "name":"u-tree",
@@ -705,8 +706,8 @@
                "itemID":"134",
                "parentID":"17",
                "type":"interior",
-               "name":"u-tree-1",
-               "title":"U Tree Detail 1",
+               "name":"tree-1",
+               "title":"Tree 1",
                "content":"",
                "disp_order":"134",
                "visible":"1",
@@ -724,66 +725,22 @@
                "shadow":"",
                "clear-classes":"clear-1 clear-2",
                "credits_raw":"[{\"title\":\"Design\",\"value\":\"MWAI\"}]",
-               "link":"\/interior\/u-tree\/u-tree-1\/"
+               "link":"\/interior\/u-tree\/tree-1\/"
             },
-            {  
-               "itemID":"276",
+			{  
+               "itemID":"134",
                "parentID":"17",
                "type":"interior",
-               "name":"u-tree-2",
-               "title":"U Tree Detail 2",
+               "name":"tree-2",
+               "title":"Tree 2",
                "content":"",
-               "disp_order":"192",
+               "disp_order":"134",
                "visible":"1",
                "meta_title":"",
-               "image":"kitchen-island-fullscreen-1.jpg",
-               "banner":"\/interior\/assets\/images\/landscape\/700\/kitchen-island-banner.jpg",
-               "credits":[  
-                  {  
-                     "title":"Design",
-                     "value":"INTERIOR-iD"
-                  }
-               ],
-               "shadow":"",
-               "clear-classes":"clear-1 clear-2 clear-4",
-               "credits_raw":"[{\"title\":\"Design\",\"value\":\"INTERIOR-iD\"}]",
-               "link":"\/interior\/u-tree\/u-tree-2\/"
-            },
-            {  
-               "itemID":"490",
-               "parentID":"17",
-               "type":"interior",
-               "name":"u-tree-3",
-               "title":"U Tree Detail 3",
-               "content":"",
-               "disp_order":"230",
-               "visible":"1",
-               "meta_title":"Mayfair concept Kitchen by INTERIOR-iD",
-               "credits":[  
-                  {  
-                     "title":"Design",
-                     "value":"INTERIOR-iD \/ MWAI"
-                  }
-               ],
-               "image":"mayfair-kitchen-landscape-063.jpg",
-               "banner":"\/interior\/assets\/images\/landscape\/700\/mayfair-kitchen-banner.jpg",
-               "shadow":"",
-               "clear-classes":"clear-1 clear-2 clear-3 clear-6",
-               "credits_raw":"[{\"title\":\"Design\",\"value\":\"INTERIOR-iD \\\/ MWAI\"}]",
-               "link":"\/interior\/u-tree\/u-tree-3\/"
-            },
-            {  
-               "itemID":"192",
-               "parentID":"17",
-               "type":"interior",
-               "name":"u-tree-4",
-               "title":"U Tree Detail 4",
-               "content":"",
-               "disp_order":"252",
-               "visible":"1",
-               "meta_title":"",
-               "image":"elgin-contemporary-kitchen-fullscreen-home.jpg",
-               "banner":"\/interior\/assets\/images\/landscape\/700\/contemporary-kitchen-banner.jpg",
+               "architecture":"",
+               "developer":"",
+               "banner":"\/interior\/assets\/images\/landscape\/700\/modern-kitchen-banner.jpg",
+               "image":"modern-kitchen-fullscreen-home.jpg",
                "credits":[  
                   {  
                      "title":"Design",
@@ -791,33 +748,10 @@
                   }
                ],
                "shadow":"",
-               "clear-classes":"clear-1 clear-3",
+               "clear-classes":"clear-1 clear-2",
                "credits_raw":"[{\"title\":\"Design\",\"value\":\"MWAI\"}]",
-               "link":"\/interior\/u-tree\/u-tree-4\/"
+               "link":"\/interior\/u-tree\/tree-2\/"
             },
-            {  
-               "itemID":"491",
-               "parentID":"17",
-               "type":"interior",
-               "name":"u-tree-5",
-               "title":"U Tree Detail 5",
-               "content":"",
-               "disp_order":"491",
-               "visible":"1",
-               "credits":[  
-                  {  
-                     "title":"Design",
-                     "value":"INTERIOR-iD \/ MWAI"
-                  }
-               ],
-               "image":"chelsea-kitchen-landscape-115.jpg",
-               "banner":"\/interior\/assets\/images\/landscape\/700\/chelsea-kitchen-banner.jpg",
-               "shadow":"",
-               "meta_title":"Chelsea concept Kitchen by INTERIOR-iD",
-               "clear-classes":"clear-1",
-               "credits_raw":"[{\"title\":\"Design\",\"value\":\"INTERIOR-iD \\\/ MWAI\"}]",
-               "link":"\/interior\/u-tree\/u-tree-5\/"
-            }
          ]
       }
    ],
