@@ -3108,12 +3108,6 @@ body {
     padding-bottom: 65px; } }
 /* -------------------- Contact -------------------- */
 /*--- General ---*/
-.contact-side {
-  position: absolute;
-  width: calc(33.33% + 4px);
-  height: 100%;
-  background: #0F0F0F; }
-
 /*--- Index ---*/
 .contact-locations {
   margin-bottom: 60px; }
@@ -3152,45 +3146,38 @@ body {
   margin-right: 10px; }
 
 /* Map */
-.location-map-wrapper {
-  position: relative;
-  margin-left: calc(33.33% + 4px);
-  height: 100%;
-  background: #999999; }
-
 .location-map {
   width: 100%;
   height: 100%; }
 
+.infoContact {
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
+  max-width: 1200px; }
+  .infoContact:before, .infoContact:after {
+    content: '';
+    display: table; }
+  .infoContact:after {
+    clear: both; }
+
+.location-map-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 0;
+  height: 40%; }
+
+.contact-locations {
+  top: 0;
+  margin-top: 30px; }
+
+.contact-footer {
+  position: relative; }
+
 @media screen and (max-width: 1400px) {
-  .contact-side {
-    width: calc(33.33% + 4px); }
-
-  .location-map-wrapper {
-    margin-left: calc(33.33% + 4px); }
-
   .contact-location, .contact-footer {
     padding-left: 20px; } }
-@media screen and (max-width: 1000px), screen and (max-height: 830px) {
-  .contact-side {
-    position: relative;
-    width: auto;
-    height: auto;
-    top: 40%; }
-
-  .location-map-wrapper {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    margin-left: 0;
-    height: 40%; }
-
-  .contact-locations {
-    top: 0;
-    margin-top: 30px; }
-
-  .contact-footer {
-    position: relative; } }
 @media screen and (max-height: 870px) {
   .contact-location {
     margin-bottom: 30px; } }
@@ -3281,7 +3268,8 @@ body {
 
 .portfolio-option a {
   text-decoration: none;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  text-transform: uppercase; }
 
 .portfolio-option-expanded .portfolio-option {
   cursor: default; }
@@ -4583,19 +4571,19 @@ body {
   right: 15px;
   z-index: 100;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 5px solid rgba(255, 255, 255, 0.25);
-  background-color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
-  line-height: 40px;
-  font-size: 24px;
+  line-height: 50px;
+  font-size: 26px;
   text-align: center;
-  color: #999;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  background-color: #CF2026;
+  color: #fff; }
   .iconAdd:hover {
-    background-color: #CF2026;
+    background-color: #8d161a;
     color: #fff; }
 
 .hl-page {
@@ -4681,6 +4669,21 @@ textarea.form-control {
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
+
+.address {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 100;
+  font-size: 18px;
+  padding-top: 25px;
+  color: #fff; }
+
+.copies-inner {
+  padding: 0 30px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 1000; }
 
 @media screen and (max-width: 980px) {
   .contact-side, .location-map, .contact-form {

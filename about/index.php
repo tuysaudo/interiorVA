@@ -52,13 +52,8 @@
  </head>
  <body class=" ">
     <div class="wrapper">
-      <div class="boxFacebook">
-            <span class="iconAdd iconFace"><i class="zmdi zmdi-facebook"></i></span>
-      </div>
-      <div class="boxHotline">
-            <span class="iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
-      </div>
        <header class="page-header ">
+	   <div class="address">A-8333 Riegersburg 172 Austria</div>
           <div class="logo">
              <a href="/interior/">
              INTERIOR-iD                </a>
@@ -119,7 +114,7 @@
        <div class="body">
 			<div class="page company recruitment-index full-height">
                      <div class="section-title page-title content-offset">
-                        <h1>Careers</h1>
+                        <h1>Giới thiệu</h1>
                      </div>
                      <div class="section-header full-height">
                         <div class="background cover pos-bl preload" style="background-image:url(http://localhost/interior/assets/images/fullscreen/800/careers-fullscreen-02964b.jpg);"></div>
@@ -127,19 +122,14 @@
                      <div class="section-footer abs-bottom abs-full">
                         <div class="section-footer-inner clearfix">
                            <div class="section-footer-content clearfix">
-                              <div class="section-footer-hint section-hint scroll-down">
-                                 <span>Scroll down</span>
-                              </div>
-                              <div class="section-footer-copy max-width-large">
-                                 <p>We are always looking for talented, enthusiastic and ambitious individuals to join the team at INTERIOR-iD.</p>
-                              </div>
+                              <p>We are always looking for talented, enthusiastic and ambitious individuals to join the team at INTERIOR-iD.</p>
                            </div>
                         </div>
                      </div>
                      <div class="section-content full-height clearfix">
                         <div class="copies-rightside">
-                           <div class="copy-rightside mb4 pb4 border-bottom-75 max-width-large">
-                              <div class="copy-rightside-title">
+                        <div class="copies-inner">
+                           <div class="copy-rightside-title">
                                  <h3 class="title-small mb">Why work with us?</h3>
                               </div>
                               <div class="copy-rightside-content">
@@ -162,7 +152,7 @@
                                     </a>
                                  </p>
                               </div>
-                           </div>
+                        </div>
                         </div>
                      </div>
                   </div>
@@ -202,21 +192,23 @@
 		bottom:85px;
 		z-index: 100;
 		display: block;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 		border-radius: 50%;
 		border: 5px solid rgba(255,255,255, 0.25);
 		background-color: rgba(255,255,255, 0.8);
 		overflow: hidden;
-		line-height: 40px;
-		font-size: 24px;
+		line-height: 50px;
+		font-size: 26px;
 		text-align: center;
 		color:#999;
 		transition:all 0.3s ease-in-out;
+		background-color: #3B5997;
+        color:#fff;
 	}
 	.ctrlq.fb-button:hover{
-		 background-color: #3B5997;
-        color:#fff;
+		background-color: #fff;
+        color:#3B5997;
 	}
     .fb-widget{
         background: #fff;

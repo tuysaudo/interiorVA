@@ -52,13 +52,8 @@
  </head>
  <body class=" ">
     <div class="wrapper">
-      <div class="boxFacebook">
-            <span class="iconAdd iconFace"><i class="zmdi zmdi-facebook"></i></span>
-      </div>
-      <div class="boxHotline">
-            <span class="iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
-      </div>
        <header class="page-header ">
+	   <div class="address">A-8333 Riegersburg 172 Austria</div>
           <div class="logo">
              <a href="/interior/">
              INTERIOR-iD                </a>
@@ -240,21 +235,23 @@
 		bottom:85px;
 		z-index: 100;
 		display: block;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 		border-radius: 50%;
 		border: 5px solid rgba(255,255,255, 0.25);
 		background-color: rgba(255,255,255, 0.8);
 		overflow: hidden;
-		line-height: 40px;
-		font-size: 24px;
+		line-height: 50px;
+		font-size: 26px;
 		text-align: center;
 		color:#999;
 		transition:all 0.3s ease-in-out;
+		background-color: #3B5997;
+        color:#fff;
 	}
 	.ctrlq.fb-button:hover{
-		 background-color: #3B5997;
-        color:#fff;
+		background-color: #fff;
+        color:#3B5997;
 	}
     .fb-widget{
         background: #fff;

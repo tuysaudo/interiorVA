@@ -52,13 +52,8 @@
  </head>
  <body class=" ">
     <div class="wrapper">
-      <div class="boxFacebook">
-            <span class="iconAdd iconFace"><i class="zmdi zmdi-facebook"></i></span>
-      </div>
-      <div class="boxHotline">
-            <span class="iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
-      </div>
        <header class="page-header ">
+	   <div class="address">A-8333 Riegersburg 172 Austria</div>
           <div class="logo">
              <a href="/interior/">
              INTERIOR-iD                </a>
@@ -118,6 +113,7 @@
        </header>
         <div class="body">
 			<div class="page contact contact-index full-height">
+				<div class="infoContact">
 				 <div class="left-side contact-side">
 					<div class="contact-locations content-offset">
 					   <div class="contact-location">
@@ -188,9 +184,10 @@
 						</form>
 					</div>
 				</div>
+				</div>
 			   <div class="location-map-wrapper">
 				  <div class="location-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14900.930752648732!2d105.79968834999998!3d20.983307749999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1522481723872" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.427227861869!2d15.9261151555695!3d46.99857120351675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476efe5e1c5f7965%3A0x6c1b0025ca45b3ad!2sRiegersburg+172%2C+8333+Riegersburg%2C+%C3%81o!5e0!3m2!1svi!2s!4v1522677760321" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				  </div>
 			   </div>
 			</div>
@@ -227,21 +224,23 @@
 		bottom:85px;
 		z-index: 100;
 		display: block;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 		border-radius: 50%;
 		border: 5px solid rgba(255,255,255, 0.25);
 		background-color: rgba(255,255,255, 0.8);
 		overflow: hidden;
-		line-height: 40px;
-		font-size: 24px;
+		line-height: 50px;
+		font-size: 26px;
 		text-align: center;
 		color:#999;
 		transition:all 0.3s ease-in-out;
+		background-color: #3B5997;
+        color:#fff;
 	}
 	.ctrlq.fb-button:hover{
-		 background-color: #3B5997;
-        color:#fff;
+		 background-color: #fff;
+        color:#3B5997;
 	}
     .fb-widget{
         background: #fff;

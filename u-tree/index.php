@@ -52,13 +52,8 @@
  </head>
  <body class=" ">
     <div class="wrapper">
-      <div class="boxFacebook">
-            <span class="iconAdd iconFace"><i class="zmdi zmdi-facebook"></i></span>
-      </div>
-      <div class="boxHotline">
-            <span class="iconAdd iconHotline"><i class="zmdi zmdi-phone"></i></span>
-      </div>
        <header class="page-header ">
+	   <div class="address">A-8333 Riegersburg 172 Austria</div>
           <div class="logo">
              <a href="/interior/">
              INTERIOR-iD                </a>
@@ -121,7 +116,7 @@
 				 <div class="portfolio-wrapper">
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-first ">
 					   <div class="portfolio-option portfolio-option-first">
-						  <h1 class="title-small"><a href="/interior/u-tree/">U-Tree</a>
+						  <h1 class="title-small"><a href="/interior/u-tree/">Cây tiện ích</a>
 						  </h1>
 						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
 						  <p class="mobile-only">
@@ -137,8 +132,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-second ">
 					   <div class="portfolio-option portfolio-option-second">
-						  <h1 class="title-small"><a href="/interior/category/">Luxury<br />
-							 Developments</a>
+						  <h1 class="title-small"><a href="/interior/category/">Thiết kế</a>
 						  </h1>
 						  <p>Working on residential developments from refurbishment of single houses to new multiple apartments by collaborating with trusted partner firms.</p>
 						  <p class="mobile-only">
@@ -154,8 +148,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-third ">
 					   <div class="portfolio-option portfolio-option-third">
-						  <h1 class="title-small"><a href="/interior/category/">Private <br />
-							 Homes</a>
+						  <h1 class="title-small"><a href="/interior/category/">Đồ nội thất</a>
 						  </h1>
 						  <p>We work on the most exceptional homes worldwide using cutting edge materials and surfaces.</p>
 						  <p class="mobile-only">
@@ -170,22 +163,17 @@
 					   </div>
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
-					   <div class="portfolio-option portfolio-option-four portfolio-option-nolink">
-						  <h1 class="title-small">Bespoke Kitchens<br /></h1>
-						  <p></p>
+					   <div class="portfolio-option portfolio-option-four">
+						  <h1 class="title-small"><a href="/interior/category/">Gạch trang trí 3D</a>
+						  </h1>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
 						  </p>
-						  <div class="portfolio-icon-wrapper is-link">
-							 <a href="http://localhost/interior/" target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
-						  </div>
-					   </div>
-					   <div class="portfolio-icon-wrapper portfolio-link">
-						  <a href="http://localhost/interior/"  target="_blank">VISIT THE LANSERRING WEBSITE</a><!--<span class="portfolio-icon"></span>-->
+						  <div class="portfolio-icon-wrapper"><span class="portfolio-icon"></span></div>
 					   </div>
 					   <div class="portfolio-background-container portfolio-background-four">
-						  <div class="portfolio-background fullscreen-weak preload" data-centre="75,25" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/modern-kitchen-fullscreen-1.jpg')"></div>
-						  <img class="portfolio-background-mobile v-align" src="../assets/images/touch-devices/modern-kitchen-fullscreen-1.jpg" />
+						  <div class="portfolio-background fullscreen-weak preload" data-centre="50,20" data-centre-element="div" style="background-image:url('http://localhost/interior/assets/images/fullscreen/800/services-development2.jpg')"></div>
+						  <img class="portfolio-background-mobile v-align" src="assets/images/touch-devices/services-development2.jpg" />
 						  <div class="portfolio-overlay"></div>
 					   </div>
 					</div>
@@ -846,21 +834,23 @@
 		bottom:85px;
 		z-index: 100;
 		display: block;
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height: 50px;
 		border-radius: 50%;
 		border: 5px solid rgba(255,255,255, 0.25);
 		background-color: rgba(255,255,255, 0.8);
 		overflow: hidden;
-		line-height: 40px;
-		font-size: 24px;
+		line-height: 50px;
+		font-size: 26px;
 		text-align: center;
 		color:#999;
 		transition:all 0.3s ease-in-out;
+		background-color: #3B5997;
+        color:#fff;
 	}
 	.ctrlq.fb-button:hover{
-		 background-color: #3B5997;
-        color:#fff;
+		background-color: #fff;
+        color:#3B5997;
 	}
     .fb-widget{
         background: #fff;
