@@ -81,16 +81,16 @@
 						 <nav class="dropdown-menu">
 							<ul>
 							   <li class="dropdown-menu-tree first " >
-								  <a href="/interior/index.php">U-Tree</a>
+								  <a href="/interior/index.php">Cây tiện ích</a>
 							   </li>
 							   <li class="dropdown-menu-designs " >
-								  <a href="/interior/">U-Designs</a>
+								  <a href="/interior/">Thiết kế</a>
 							   </li>
 							   <li class="dropdown-menu-furniture " >
-								  <a href="/interior/">U-Furniture</a>
+								  <a href="/interior/">Đồ nội thất</a>
 							   </li>
 							   <li class="dropdown-menu-tiles " >
-								  <a href="/interior/">U-Tiles</a>
+								  <a href="/interior/">Gạch trang trí 3D</a>
 							   </li>
 							</ul>
 						 </nav>
