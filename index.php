@@ -118,7 +118,7 @@
 				<div class="portfolio-wrapper">
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-first ">
 					   <div class="portfolio-option portfolio-option-first">
-						  <h1 class="title-small"><a href="/interior/u-tree/">Cây tiện ích</a>
+						  <h1 class="title-small"><a href="/interior/u-tree/">U-tree</a>
 						  </h1>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
@@ -133,7 +133,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-second ">
 					   <div class="portfolio-option portfolio-option-second">
-						  <h1 class="title-small"><a href="/interior/category/">Thiết kế</a>
+						  <h1 class="title-small"><a href="/interior/category/">U-designs</a>
 						  </h1>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
@@ -148,7 +148,7 @@
 					</div>
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-third ">
 					   <div class="portfolio-option portfolio-option-third">
-						  <h1 class="title-small"><a href="/interior/category/">Đồ nội thất</a>
+						  <h1 class="title-small"><a href="/interior/category/">u-furniture</a>
 						  </h1>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>
@@ -164,7 +164,7 @@
 					
 					<div class="portfolio-option-wrapper portfolio-option-wrapper-four ">
 					   <div class="portfolio-option portfolio-option-four">
-						  <h1 class="title-small"><a href="/interior/category/">Gạch trang trí 3D</a>
+						  <h1 class="title-small"><a href="/interior/category/">u-Tiles</a>
 						  </h1>
 						  <p class="mobile-only">
 							 <a class="back icon icon-inline icon-cross" href="http://localhost/interior/">Back</a>

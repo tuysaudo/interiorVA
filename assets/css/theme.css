@@ -3192,8 +3192,12 @@ body {
   color: #FFFFFF; }
 
 @media screen and (max-width: 1200px) {
+  .portfolio-option {
+    padding-left: 15px;
+    padding-right: 15px; }
+
   .portfolio h1, .portfolio h2 {
-    font: 30px/31px "Roboto Condensed", Arial, Helvetica, sans-serif; } }
+    font: 26px/31px "Roboto Condensed", Arial, Helvetica, sans-serif; } }
 @media screen and (orientation: landscape) and (max-width: 750px) {
   .portfolio h1, .portfolio h2 {
     font: 25px/26px "Roboto Condensed", Arial, Helvetica, sans-serif; } }
@@ -3228,7 +3232,7 @@ body {
 .portfolio-option {
   position: fixed;
   top: 33%;
-  width: calc(15% - 8px);
+  width: calc(20% - 8px);
   height: 40%;
   padding: 0 5% 40px;
   margin-right: 12px;
@@ -3252,12 +3256,18 @@ body {
     /*min-height:257px;
     */ }
 
+  .portfolio-option {
+    padding-left: 15px;
+    padding-right: 15px; }
+
   .portfolio-option.portfolio-option-third {
     padding-bottom: 0; } }
 @media screen and (orientation: landscape) and (max-height: 600px) {
   .portfolio-option {
     height: 65%;
-    top: 25%; } }
+    top: 25%;
+    padding-left: 15px;
+    padding-right: 15px; } }
 @media screen and (orientation: landscape) and (max-width: 750px) {
   /* This is where we remove the ps */
   .portfolio-option {
